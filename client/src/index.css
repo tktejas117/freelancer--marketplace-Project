@@ -1,0 +1,5 @@
+/* These are the required Tailwind directives. */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+

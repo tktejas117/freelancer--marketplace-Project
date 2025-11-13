@@ -1,0 +1,66 @@
+/* client/src/styles/Proposals.css */
+
+.proposals-page {
+    background-color: #f8f9fa;
+    min-height: 100vh;
+    padding: 2rem;
+}
+
+.proposals-container {
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.proposals-header {
+    margin-bottom: 2rem;
+}
+
+.proposals-header h1 {
+    font-size: 2.25rem;
+    font-weight: 700;
+    color: #212529;
+}
+
+.proposals-list {
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+    overflow: hidden;
+}
+
+.proposal-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.5rem;
+    border-bottom: 1px solid #e9ecef;
+}
+.proposal-item:last-child {
+    border-bottom: none;
+}
+
+.proposal-item-info h2 {
+    font-size: 1.1rem;
+    font-weight: 600;
+    color: #343a40;
+    margin-bottom: 0.25rem;
+}
+
+.proposal-item-info p {
+    font-size: 0.9rem;
+    color: #6c757d;
+}
+
+/* --- Status Badge Styles --- */
+.status-badge {
+    padding: 0.25rem 0.75rem;
+    border-radius: 12px;
+    font-size: 0.8rem;
+    font-weight: 500;
+    white-space: nowrap;
+}
+
+.status-sent { background-color: #e0e7ff; color: #4338ca; }
+.status-viewed { background-color: #dbeafe; color: #1e40af; }
+.status-accepted { background-color: #dcfce7; color: #16a34a; }
+.status-rejected { background-color: #fee2e2; color: #b91c1c; }
